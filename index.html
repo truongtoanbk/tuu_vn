@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Đặc sản rượu ngô</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			body {
+				font-family: serif;
+				margin: 0;
+				padding: 0;
+				text-decoration: none;
+			}
+
+			.header {
+				width: 100%;
+				height: 80px;
+				background-color: black;
+			}
+
+			.logo h1 {
+				float: left;
+				color: white;
+				margin-left: 150px;
+				font-family: cursive;
+				font-size: 32px;
+			}
+
+			.box {
+				width: 900px;
+				float: right;
+			}
+
+			.box ul li {
+				width: 180px;
+				float: left;
+				margin: 10px;
+				text-align: center;
+			}
+
+			.box ul li a {
+				font-family: cursive;
+				color: white;
+				font-size: 20px;
+			}
+
+			.box ul li a:hover {
+				color: yellow;
+			}
+
+			.box .fa {
+				margin-right: 8px;
+			}
+
+			.sell {
+				width: 1000px;
+				margin: 50px auto;
+			}
+
+			.image {
+				float: left;
+				margin:0px;
+				margin-bottom: 40px;
+
+			}
+
+			.price{
+				float: right;
+				width: 500px;
+				margin-left: 60px;
+				margin-top: 50px;
+				line-height: 26px;
+			}
+
+			.price p {
+				color: #34E210;
+				font-size: 22px;
+			}
+
+			.price p span {
+				text-decoration: underline;
+			}
+
+			.price ul {
+				font-weight: normal;
+				font-size: 20px;
+			}
+
+			.description {
+				width: 1000px;
+				clear: both;
+				margin: 0px auto;
+			}
+
+			.description h2 {
+				margin-left: 20px;
+			}
+
+			.description p {
+				text-align: justify;
+				line-height: 28px;
+				font-weight: nomal;
+				font-size: 20px;
+			}
+
+			.description img {
+				margin: 18px 0px;
+				margin-left: 30px;
+			}
+
+			.footer {
+				margin: 60px 0px;
+				margin-bottom: 0;
+				width: 100%;
+				height: 160px;
+				background-color: #3b7600;
+				
+			}
+
+			.inner_footer {
+				width: 1010px;
+				margin: 60px auto;
+			}
+
+			.inner_footer p {
+				text-align: center;
+				color: yellow;
+				font-size: 18px;
+				padding-top: 60px;
+			}
+
+			.inner_footer p span {
+				text-decoration: underline;
+			}
+
+			.float {
+				position: fixed;
+				bottom: 0px;
+				width: 100%;
+				height: 40px;
+				background-color: #22C200;
+			}
+
+			.inner_float {
+				width: 900px;
+				float: right;
+			}
+
+			.inner_float li {
+				display: inline;
+				margin: 6px;				
+				border: 2px solid yellow;
+				border-radius: 10px;
+				padding: 2px 8px;
+				background-color: white;
+			}
+
+			.inner_float li a {
+				color: green;
+				text-decoration: none;
+
+				
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo">
+				<h1>TỬu.vn</h1>
+			</div>
+
+			<div class="box">
+				<ul type="none">
+					<li><a><i class="fa fa-home"></i>Trang chủ</a></li>
+					<li><a><i class="fa fa-list"></i>List rượu</a></li>
+					<li><a><i class="fa fa-battery-full"></i>Mẹo uống rượu</a></li>
+					<li><a><i class="fa fa-battery-empty"></i>Mẹo giải rượu</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="sell">
+			<div class="image">
+				<img src="https://live.staticflickr.com/8001/7473186438_1ff9d61d5d_b.jpg" width="400" height="500">
+			</div>
+
+			<div class="price">
+				<h1>Rượu Ngô men lá La Hang</h1>
+				<p>60,000<span>đ</span></p>
+				<h2>Đặc điểm nổi bật rượu ngô men lá La Hang:</h2>
+				<ul>
+					<li>Cam kết uống không bị đau đầu cho dù bạn có uống nhiều đến đâu đi chăng nữa</li>
+              		<li>Rượu rất dễ uống nhưng phê rất nhanh</li>
+              		<li>Nguồn gốc rõ ràng đảm bảo</li>
+            	</ul>
+			</div>
+		</div>
+
+		<div class="description">
+			<h2>Mô tả</h2>
+			<p>Rượu ngô là thứ rượu thơm ngon nổi tiếng của vùng đất La Hang, Tuyên Quang.</p>
+			<img src="https://tamthat.com/wp-content/uploads/2015/10/du-lich-ha-giang-8.jpg" alt="Người phụ nữ đang nấu rượu">
+			<p>Để có được những giọt rượu hương vị thơm ngon đặc biệt, đòi hỏi phải trải qua nhiều công đoạn chế biến cũng như thời gian với sự tỉ mỉ, kiên nhẫn. Rượu ngô La Hang được nấu từ ngô ủ bằng men lá. Men được làm từ các loại lá, rễ cây rừng. Các loại lá, rễ được rửa sạch phơi khô cho vào hũ ngâm với nước suối cho thật ngấm rời lấy nước hòa với bột gạo và giềng giã nhỏ nặn thành viên men nhỏ để trên trấu sạch.<br>
+		    Tạo ra được thứ đồ uống ngon như vậy là cả một nghệ thuật, đòi hỏi sự tuân thủ các nguyên tắc nhất định. Trước hết phải phơi ngô nếp nương thật khô, thật kỹ. Sau đó cho vào nồi nấu với lượng nước vừa phải, bao giờ thấy ngô nở bung nút thành 3 cạnh rồi lấy ra , rải một lớp mỏng trên cót. Trong lúc đợi ngô nguội thì mang men ra giã nhỏ thành bột. Khi thấy ngô còn hơi âm thì rắc men, đảo đều. Nếu rắc men khi ngô vẫn còn nóng thì rượu nấu ra sẽ bị chua.<br>
+		    Để khoảng hai ngày hai đêm, thấy mùi thơm thì cho vào các vại để ủ, sau khoảng 15-20 ngày thì có thể mang ra nấu cất lấy rượu. Người dân tộc ở đây nấu theo kiểu nấu cách thủy, chõ dùng để nấu rượu được làm bằng loại gỗ rừng, cho rượu thơm ngon và để được lâu.</p>
+		</div>
+
+		<div class="footer">
+			<div class="inner_footer">
+			<p><strong>TỬu.vn</strong> chuyên bán rượu và chia sẻ các kiến thức về rượu <span><strong>Uy tín , chất lượng</strong></span>. Sự hài lòng của quý vị là động lực phát triển của chúng tôi.</p>
+			</div>
+		</div>
+
+		<div class="float">
+			<div class="inner_float">
+				<ul type="none">
+				<li><a>0396762825</a></li>
+				<li><a target="_blank" href="https://www.facebook.com/profile.php?id=100009835151677">Chat</a></li>
+				<li><a>Mua ngay</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+</html>
